@@ -1,0 +1,91 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body { 
+font-family: 'Oswald';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{
+    text-align: center;
+}
+p {
+    line-height: 2;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+}
+/*utilities*/
+.bold-text {
+    font-weight: 700;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+
+header {
+background-color: burlywood;
+height: 200px;
+
+}
+.header-title h1 {
+  text-transform: uppercase;
+  font-size: 40px;  
+  letter-spacing: 8px;
+}
+.header-title h2 {
+text-transform: uppercase;
+font-size: 20px;
+letter-spacing: 4px;
+}
+.header-title p {
+text-transform: uppercase;
+text-align: center;
+font-size: 12px;
+letter-spacing: 3px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+color: burlywood;
+margin-right: 30px;
+letter-spacing: 3px;
+}
+
+nav a:hover {
+font-weight: 700;
+opacity: 0.8;
+}
+
+/*main*/
+.my-photo {
+    max-width: 100;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 8px solid #222222;
+    padding: 3px;
+}
+.my-photo:hover {
+    transform: scale(1.1);
+}
+/*bio*/
+ul li {
+    font-size: 18px;
+    margin: 40px;
+}
+ol li {
+    font-size: 10px;
+    margin: 40px;
+}
